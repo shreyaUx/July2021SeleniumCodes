@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="18" failed="1" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-11T14:55:07Z" name="Demo Cart App Test automation regression suite" finished-at="2021-10-11T14:57:32Z" duration-ms="144165">
+    <groups>
+    </groups>
+    <test started-at="2021-10-11T14:55:07Z" name="Login page Test" finished-at="2021-10-11T14:55:53Z" duration-ms="45205">
+      <class name="com.qa.opencart.test.LoginPageTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.opencart.test.LoginPageTest@30bce90b]" started-at="2021-10-11T14:55:07Z" name="setUP" finished-at="2021-10-11T14:55:39Z" duration-ms="31930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="forgotPwdLinkTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@30bce90b]" started-at="2021-10-11T14:55:39Z" name="forgotPwdLinkTest" finished-at="2021-10-11T14:55:40Z" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="loginPageTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@30bce90b]" started-at="2021-10-11T14:55:42Z" name="loginPageTest" finished-at="2021-10-11T14:55:47Z" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@30bce90b]" started-at="2021-10-11T14:55:48Z" name="loginPageTitleTest" finished-at="2021-10-11T14:55:48Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:0, instance:com.qa.opencart.test.LoginPageTest@30bce90b]" started-at="2021-10-11T14:55:48Z" name="loginPageUrlTest" finished-at="2021-10-11T14:55:48Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.LoginPageTest@30bce90b]" started-at="2021-10-11T14:55:49Z" name="tearDown" finished-at="2021-10-11T14:55:53Z" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+    </test> <!-- Login page Test -->
+    <test started-at="2021-10-11T14:55:07Z" name="Accounts page Test" finished-at="2021-10-11T14:57:08Z" duration-ms="120697">
+      <class name="com.qa.opencart.test.AccountsPageTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:07Z" name="setUP" finished-at="2021-10-11T14:55:36Z" duration-ms="28650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:36Z" name="accPageSetup" finished-at="2021-10-11T14:55:43Z" duration-ms="6635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accPageLogoutLinkTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:43Z" name="accPageLogoutLinkTest" finished-at="2021-10-11T14:55:43Z" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageLogoutLinkTest -->
+        <test-method signature="accPageSearchTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:44Z" name="accPageSearchTest" finished-at="2021-10-11T14:55:44Z" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSearchTest -->
+        <test-method signature="accPageSecHeaderTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:44Z" name="accPageSecHeaderTest" finished-at="2021-10-11T14:55:45Z" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSecHeaderTest -->
+        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:45Z" name="accPageTitleTest" finished-at="2021-10-11T14:55:45Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageTitleTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:45Z" name="searchTest" data-provider="productData" finished-at="2021-10-11T14:55:49Z" duration-ms="4032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:55:51Z" name="searchTest" data-provider="productData" finished-at="2021-10-11T14:55:56Z" duration-ms="5183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:56:05Z" name="searchTest" data-provider="productData" finished-at="2021-10-11T14:56:08Z" duration-ms="3121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="selectProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:56:08Z" name="selectProductTest" data-provider="productSelectData" finished-at="2021-10-11T14:56:30Z" duration-ms="21386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method signature="selectProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:56:31Z" name="selectProductTest" data-provider="productSelectData" finished-at="2021-10-11T14:56:50Z" duration-ms="18510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method signature="selectProductTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:56:50Z" name="selectProductTest" data-provider="productSelectData" finished-at="2021-10-11T14:56:59Z" duration-ms="9006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple Cinema 30"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.AccountsPageTest@48793bef]" started-at="2021-10-11T14:57:06Z" name="tearDown" finished-at="2021-10-11T14:57:08Z" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.AccountsPageTest -->
+    </test> <!-- Accounts page Test -->
+    <test started-at="2021-10-11T14:55:07Z" name="ProductInfo page Test" finished-at="2021-10-11T14:57:32Z" duration-ms="144164">
+      <class name="com.qa.opencart.test.ProductInfoTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:55:07Z" name="setUP" finished-at="2021-10-11T14:55:35Z" duration-ms="27676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="productInfoPageSetup()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:55:35Z" name="productInfoPageSetup" finished-at="2021-10-11T14:55:43Z" duration-ms="7527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoPageSetup -->
+        <test-method signature="productHeaderTest()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:55:43Z" name="productHeaderTest" finished-at="2021-10-11T14:55:57Z" duration-ms="13790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method signature="productImageCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:56:04Z" name="productImageCountTest" data-provider="getImageData" finished-at="2021-10-11T14:56:29Z" duration-ms="24797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productImageCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:56:30Z" name="productImageCountTest" data-provider="getImageData" finished-at="2021-10-11T14:56:47Z" duration-ms="16833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productImageCountTest(java.lang.String, java.lang.String, int)[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:56:47Z" name="productImageCountTest" data-provider="getImageData" finished-at="2021-10-11T14:56:56Z" duration-ms="9194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple Cinema 30"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImageCountTest -->
+        <test-method signature="productMetatadataTest()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:56:57Z" name="productMetatadataTest" finished-at="2021-10-11T14:57:09Z" duration-ms="11964" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [$2,000.00] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [$2,000.00] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.qa.opencart.test.ProductInfoTest.productMetatadataTest(ProductInfoTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productMetatadataTest -->
+        <test-method signature="productMetatadataTest()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:57:09Z" name="productMetatadataTest" finished-at="2021-10-11T14:57:16Z" duration-ms="7345" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.qa.opencart.test.ProductInfoTest.productMetatadataTest(ProductInfoTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productMetatadataTest -->
+        <test-method signature="productMetatadataTest()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:57:17Z" name="productMetatadataTest" finished-at="2021-10-11T14:57:23Z" duration-ms="6528" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.qa.opencart.test.ProductInfoTest.productMetatadataTest(ProductInfoTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productMetatadataTest -->
+        <test-method signature="productMetatadataTest()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:57:24Z" name="productMetatadataTest" finished-at="2021-10-11T14:57:30Z" duration-ms="6071" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null],
+expected [$2,000.00] but found [null]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.qa.opencart.test.ProductInfoTest.productMetatadataTest(ProductInfoTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productMetatadataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.test.ProductInfoTest@20435c40]" started-at="2021-10-11T14:57:30Z" name="tearDown" finished-at="2021-10-11T14:57:32Z" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.ProductInfoTest -->
+    </test> <!-- ProductInfo page Test -->
+  </suite> <!-- Demo Cart App Test automation regression suite -->
+</testng-results>
